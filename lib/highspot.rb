@@ -1,4 +1,4 @@
-require "highspot/version"
+require 'highspot/version'
 
 module Highspot
   class Error < StandardError; end
