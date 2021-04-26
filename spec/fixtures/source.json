@@ -1,0 +1,36 @@
+{
+  "users" : [
+    {
+      "id" : "1",
+      "name" : "First Last"
+    }
+  ],
+  "playlists" : [
+    {
+      "id" : "1",
+      "user_id" : "1",
+      "song_ids" : [
+        "1"
+      ]
+    },
+    {
+      "id" : "2",
+      "user_id" : "1",
+      "song_ids" : [
+        "1"
+      ]
+    }
+  ],
+  "songs": [
+    {
+      "id" : "1",
+      "artist": "Artist",
+      "title": "Title"
+    },
+    {
+      "id" : "2",
+      "artist": "Artist2",
+      "title": "Title2"
+    }
+  ]
+}
