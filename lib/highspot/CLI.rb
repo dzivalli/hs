@@ -20,7 +20,7 @@ module Highspot
 
       args
     rescue StandardError => e
-      puts 'Usage: -s source file -c file with changes'
+      puts 'Usage: -s <source file> -c <file with changes>'
       raise e
     end
 
